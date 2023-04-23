@@ -7,6 +7,11 @@
     border: none;
 }
 
+body {
+    color:rgb(231, 231, 122);
+    background-color: rgb(10, 82, 82);
+}
+
 h1 {
 text-align: center;
 font-weight: 400;
@@ -24,7 +29,7 @@ letter-spacing: 3px;
 
 
    #hero-outer{
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
    }
@@ -56,14 +61,25 @@ h3, p {
 
 #menu {
 letter-spacing: 3px;
+
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 #menu a {
     text-decoration: none;
+    color:rgb(231, 231, 122);
+    text-align: center;
+    margin: auto;
 }
+
+a:hover{
+    color: antiquewhite;
+}
+ 
