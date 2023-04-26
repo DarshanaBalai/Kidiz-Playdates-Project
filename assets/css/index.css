@@ -119,11 +119,23 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 width: 100%;
+overflow: hidden;
 }
 
 #event-details div{
-    color: aliceblue;
-    background-color: ;
+    color: white;
+    background-color: rgba(0, 0 ,0, .6) ;
+    width: 25%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    padding: 30px, 0, 0 ,10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+}
+.event-content{
+    text-align: center;
 }
 
 a:hover{
