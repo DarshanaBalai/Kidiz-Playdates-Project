@@ -16,10 +16,9 @@ body {
 float: left;
 font-size: 280%;
 margin-bottom: auto;
-margin-left: 10px;
+margin-left: 20px;
+
 }
-
-
 
 
 h3, p {
@@ -92,7 +91,7 @@ border-bottom: 1px solid rgb(231, 231, 122);
 }
 
 .content {
-    margin-top: 70px;
+    margin-top: 20px;
     color: rgb(175, 179, 78);
     padding: 5px;
     text-align: center;
@@ -101,6 +100,10 @@ border-bottom: 1px solid rgb(231, 231, 122);
 
 p{
 color: antiquewhite;
+margin-left:  70px;
+margin-right: 70px;
+font-size: 20px;
+letter-spacing: 2px;
 }  
 
 a:hover{
