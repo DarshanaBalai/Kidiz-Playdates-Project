@@ -12,48 +12,24 @@ body {
    background-color: rgb(37, 99, 92);
 }
 
-h1 {
-text-align: center;
-font-weight: 400;
-font-size: 50px;
-margin-top: 10px;
-letter-spacing: 3px;
-
+#logo {
+float: left;
+font-size: 280%;
+margin-bottom: auto;
+margin-left: 10px;
 }
 
 
 
-
-
-   #hero-outer{
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-   }
-
-#hero-image {
-    height: 500px;
-    width: 100%;
-    background: url(../images/eleonora-k2UQ0DKctl4-unsplash\ \(1\).jpg) no-repeat center center;
-    background-size: cover;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode:forwards;
-}
-
-
-
-@keyframes hero-zoom {
-    from{
-       transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
 
 h3, p {
     font-family: 'Kalam', cursive;
+}
+
+#menu , #logo {
+    line-height:  75px;
+    margin-bottom: 10px;
+    margin-top: 3px;
 }
 
 #menu , h1 {
@@ -71,16 +47,61 @@ letter-spacing: 3px;
     list-style-type: none;
     margin-right: 30px;
     margin-left: 30px;
-    margin-top: 30px;
+   
     
 }
 
 #menu a {
     text-decoration: none;
     color:rgb(231, 231, 122);
-    text-align: center;
-    margin: auto;
+  
 }
+
+#menu a:hover {
+border-bottom: 1px solid rgb(231, 231, 122);
+}
+
+
+#hero-outer{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    
+   }
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url(../images/eleonora-k2UQ0DKctl4-unsplash\ \(1\).jpg) no-repeat center center;
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+  
+}
+
+
+
+@keyframes hero-zoom {
+    from{
+       transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.content {
+    margin-top: 70px;
+    color: rgb(175, 179, 78);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+color: antiquewhite;
+}  
 
 a:hover{
     color: antiquewhite;
