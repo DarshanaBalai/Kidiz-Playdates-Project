@@ -113,6 +113,19 @@ letter-spacing: 2px;
     font-size: 25px;
 }
 
+#event-details{
+background-image: url(../images/jess-zoerb-4j-r_tuupf4-unsplash.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}
+
+#event-details div{
+    color: aliceblue;
+    background-color: ;
+}
+
 a:hover{
     color: antiquewhite;
 }
