@@ -123,8 +123,8 @@ overflow: hidden;
 }
 
 #event-details div{
-    color: white;
-    background-color: rgba(0, 0 ,0, .6) ;
+    color: antiquewhite;
+    background-color: rgba(0, 0 ,0, .4) ;
     width: 25%;
     height: 300px;
     float: left;
@@ -136,6 +136,8 @@ overflow: hidden;
 }
 .event-content{
     text-align: center;
+    padding: 80px 0;
+    font-size: 30px;
 }
 
 a:hover{
