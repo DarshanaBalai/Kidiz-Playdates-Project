@@ -187,10 +187,30 @@ footer{
 }
 
 #form {
+    font-family: 'Kalam', cursive;
     clear:both;
-    width: 450px;
-    padding: 20px 30px;
-    margin: 50px auto;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 30px auto;
     text-align: center;
     box-shadow: 0 20px 50px rgb(175, 179, 78);
+    color:antiquewhite;
+   
 }
+
+#form h3{
+    font-size:30px;
+}
+
+.form-content{
+    margin-bottom: 20px;
+    margin-left:35px;
+}
+.terms{
+    margin-left:35px;
+}
+
+.form-details{
+    margin-left:300px;
+    }
+    
