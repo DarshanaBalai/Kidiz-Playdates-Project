@@ -464,6 +464,10 @@ footer{
     clear:left;
     
       }
+
+      #pictures {
+        columns: 3;
+    }
    }  
 
    @media  screen and (max-width: 735px) { 
@@ -480,7 +484,11 @@ footer{
       #event-details div{
         clear: both;
          width: 100%;
-            }
+    }
+
+    #pictures {
+        columns: 2;
+    }
        
     } 
 
