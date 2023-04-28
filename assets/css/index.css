@@ -143,14 +143,13 @@ a:hover{
     color: antiquewhite;
 }
 
-
-    button {
+button {
         transition-duration: 0.4s;
         padding: 8px 22px;
         margin: 10px;
       }
       
-      button:hover {
+button:hover {
         background-color: rgb(175, 179, 78); 
         color:antiquewhite;
       }
@@ -189,12 +188,13 @@ footer{
 #form {
     font-family: 'Kalam', cursive;
     clear:both;
-    width: 300px;
+    width: 280px;
     padding: 10px 20px;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
     box-shadow: 0 20px 50px rgb(175, 179, 78);
     color:antiquewhite;
+    margin-top:50px;
    
 }
 
@@ -204,13 +204,37 @@ footer{
 
 .form-content{
     margin-bottom: 20px;
-    margin-left:35px;
+    margin-left:20px;
+    
 }
 .terms{
-    margin-left:35px;
+    margin-left:15px;
 }
 
-.form-details{
-    margin-left:300px;
-    }
+.form-details {
+    margin:auto;
+   }
+  
+   @media  screen and (max-width: 1150px) { 
+
+    #menu {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    clear:left;
+   
+      }
+   }  
+
+   @media  screen and (max-width: 735px) { 
+
+    #menu {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    clear:left;
+   text-align: center;
+      }
+   }  
     
+   
