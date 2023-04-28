@@ -473,9 +473,15 @@ footer{
     margin-bottom: 20px;
     line-height: 25px;
     clear:left;
-    width: 300px;
-  text-align: center;
+    width:100%;
+    text-align: center;
       }
-   }  
-    
-   
+
+      #event-details div{
+        clear: both;
+         width: 100%;
+            }
+       
+    } 
+
+  
