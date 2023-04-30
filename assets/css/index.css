@@ -110,7 +110,7 @@ p {
 }
 
 
-.events {
+#events {
     text-align: center;
     font-size: 25px;
 }
@@ -174,16 +174,16 @@ footer {
     height: 150px;
 }
 
-.social-netwerk {
+#social-netwerk {
     text-align: center;
   
 }
 
-.social-netwerk>li {
+#social-netwerk>li {
     display: inline;
 }
 
-.social-netwerk i {
+#social-netwerk i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -255,6 +255,7 @@ footer {
 .login {
     padding-top: 10px;
     font-size: 30px;
+    padding-top: 30px;
 }
 
 #login-form {
@@ -269,7 +270,7 @@ footer {
     padding-top: 20px;
     clear: both;
     box-shadow: 0 20px 50px rgb(175, 179, 78);
-    margin-left: 40%;
+    margin-left: 38%;
 
 }
 
@@ -280,6 +281,10 @@ footer {
     margin-left: 20px;
 }
 
+.form-links{
+    color: rgb(175, 179, 78);
+    font-size: 20px;
+}
 
 
 
@@ -344,3 +349,18 @@ footer {
     }
 
 }
+
+ @media screen and (max-width: 600px) {
+   
+    #login-form {
+        width: 50%;
+        text-align: center;
+    }
+
+    .login-form-content {
+
+        width: 70%;
+        text-align: center;
+
+    } 
+} 
