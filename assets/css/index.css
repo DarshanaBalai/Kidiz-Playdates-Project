@@ -429,9 +429,9 @@ footer{
     font-family: 'Kalam', cursive;
     clear:both;
     width: 280px;
-    padding: 10px 20px;
-    margin: 20px auto;
-    text-align: center;
+    padding:5px 10px;
+  
+    border-radius: 20px;
     box-shadow: 0 20px 50px rgb(175, 179, 78);
     color:antiquewhite;
     margin-top:50px;
@@ -443,17 +443,42 @@ footer{
 }
 
 .form-content{
-    margin-bottom: 20px;
-    margin-left:20px;
+    margin-bottom: 10px;
+  width: 75%;
     
 }
-.terms{
-    margin-left:15px;
+
+
+.input-details{
+padding: 2px 10px;
+width: 92%;
+outline: none;
+ border: 1px solid antiquewhite;
+margin-bottom: 10px;
+border-radius: 20px;
+font-family: 'Kalam', cursive;
+font-size: 15px;
+margin-left: 14px;
 }
 
-.form-details {
-    margin:auto;
-   }
+.sign-up{
+    outline: none;
+    border: 1px solid antiquewhite;
+   margin-bottom: 10px;
+   border-radius: 20px;
+   font-family: 'Kalam', cursive;
+   font-size: 15px;
+   color:  rgb(175, 179, 78);
+ height: 40px;
+ font-weight: 700px;
+ text-align: center;
+}
+
+.terms{
+    margin-left:10px;
+}
+
+
   
    @media  screen and (max-width: 1150px) { 
 
