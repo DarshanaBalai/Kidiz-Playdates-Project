@@ -83,10 +83,49 @@
         </div>
     </section>
 
+  
+
     <div class="create-event">
-<a href="#event-form" class="button">Start Event</button>
-    <div class="event-form">
-        
+      <input type="checkbox" id="show">
+       <label for="show" class="show-btn">Start Event</label>
+       <div class="container">
+       <label for="show" class="close-btn fas fa-times" title="close"></label>
+       <div class="text">
+          Events Details
+       </div>
+        <div class="event-form">
+        <form action="#">
+            <div class="data">
+            <label>Name</label>
+            <input type="text" placeholder="Full Name">
+            </div>
+            <div class="data">
+            <label>Age Group</label>
+            <input type="radio" name="age">1-3yr
+            <input type="radio" name="age">3-6yr
+            <input type="radio" name="age">6-9yr
+            <input type="radio" name="age">above
+            </div>
+            <div class="data">
+            <label for="venue">Venue</label>
+            <input type="text">
+            </div>
+            <div class="data">
+            <label for="time">Time</label>
+            <input type="radio" name="time">Morning
+            <input type="radio" name="time">Afternoon
+            <input type="radio" name="time">Evening
+            </div>
+            <div class="data">
+            <label for="details">Description</label>
+            <input type="text">
+            </div>
+            <button type="submit">Start</button>
+
+            
+        </form>
+
+
     </div>
 
     </div>
