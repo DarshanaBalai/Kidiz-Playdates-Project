@@ -111,6 +111,7 @@ p {
 
 
 #events {
+    clear:both;
     text-align: center;
     font-size: 25px;
 }
