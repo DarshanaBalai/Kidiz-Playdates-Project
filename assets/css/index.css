@@ -123,8 +123,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    overflow:visible;
-    /* overflow:hidden; */
+    overflow:hidden;
 }
 
 #event-details div {

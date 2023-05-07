@@ -1,8 +1,8 @@
 # Kidiz-Playdate-project
 
 This is Frontend project for Kids playdate, it contains following pages
-- User registration
-- Register to event
+- User registration and Login page.
+- View upcoming events or start a new event/playdate for kids.
 - Gallery for all events
 
 ## Deployment
