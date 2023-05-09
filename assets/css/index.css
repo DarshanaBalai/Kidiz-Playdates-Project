@@ -273,7 +273,7 @@ input[type="checkbox"]{
 .container #text{
     color:  rgb(37, 99, 92);
     font-size: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     padding-top: 2%;
     top: 2%;
 }
@@ -281,7 +281,7 @@ input[type="checkbox"]{
 footer {
     height: 150px;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 #social-netwerk {
