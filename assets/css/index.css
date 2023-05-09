@@ -114,7 +114,8 @@ p {
     clear:both;
     text-align: center;
     font-size: 25px;
-   
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 #event-details {
@@ -175,34 +176,47 @@ button:hover {
 }
 
 .show-btn{
-    background: #fff;
     padding: 10px 20px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #3498db;
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition-duration: 0.4s;
+    margin: 10px;
+    outline: none;
+    border: 1px solid antiquewhite;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+    text-align: center;
+    background-color:antiquewhite;
+    color: rgb(37, 99, 92);
+    
   }
+
+  .show-btn:hover{
+    background-color: rgb(175, 179, 78);
+    color: antiquewhite;
+ }
+  
+
   .show-btn, .container{
     position: absolute;
-    top: 67%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
     
   }
 
+
   .create-event .container{
-   
     background-color:rgb(175, 179, 78);
     text-align:center;
-    width:50%;
- 
-   
+    width: 35%;
   } 
   
 
 input[type="checkbox"]{
     display: none;
+    
   }
  
  .event-form{
@@ -220,24 +234,41 @@ input[type="checkbox"]{
 
   }
 
-  .data{
+   .data{
     padding: 15px;
    
-}
+} 
 
 .data label{
     color: rgb(37, 99, 92);
     font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
 } 
 
 .data input{
-    width:100%;
+    width:80%;
     height:100%;
-    padding: 5px;
-}
-.radio-input{
-    width: 50%;
-}
+    padding: 3px; 
+   }
+
+/* .radio-input{
+    width: 100%;
+   color: white;
+} */
+
+/* .data-radio label {
+    color: rgb(37, 99, 92);
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+} */
+
+
 
 .container #text{
     color:  rgb(37, 99, 92);
@@ -265,7 +296,7 @@ footer {
 #social-netwerk i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 10%;
     color: rgb(175, 179, 78);
 }
 
@@ -390,9 +421,10 @@ footer {
     top: 15px;
     font-size: 18px;
     cursor: pointer;
+    color: white;
   }
   .container .close-btn:hover{
-    color: #3498db;
+    color: rgb(37, 99, 92);
   }
 
 .form-links{
