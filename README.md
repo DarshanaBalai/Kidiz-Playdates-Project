@@ -5,6 +5,10 @@ This is Kidz playdate website and targetted audience is family with kids. It wil
 - Loneliness with the Kids
 - Address social awareness
 
+## Responsive Website
+Kidiz Playdates website is designed to be responsive website allowing visitors to view on a range of devices. 
+
+![](https://github.com/DarshanaBalai/Kidiz-Playdates-Project/assets/130803590/dd336f77-2102-4980-967d-cad040e289c7)
 ## Feature
 
 This website provides platform for the end user mainly parents or organizer. User will be able to
