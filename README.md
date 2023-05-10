@@ -52,7 +52,9 @@ It shows some snaps from different events and just give the user/ kid positive v
 Testing is done to test frontend like html, css. 
 - Validator Testing
     - HTML - No errors were returned when passing through the official W3C validator
+    ![](https://github.com/DarshanaBalai/Kidiz-Playdates-Project/assets/130803590/7177fb3f-a121-4f85-84fa-677dbf84992d)
     - CSS - No errors were found when passing through the official (Jigsaw) validator
+    ![](https://github.com/DarshanaBalai/Kidiz-Playdates-Project/assets/130803590/4604b261-8803-452c-b1e1-3525eac621b0)
 
 - Problems
     - When running `python3 -m http.server` on codeanywhere, I got `Address already in use` error.
