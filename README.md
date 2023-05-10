@@ -1,7 +1,7 @@
 # Kids Play date - Let's play !!
 
 This is Kidz playdate website and targetted audience is family with kids. It will help to create playful society for kids, different age group kids from different location can come together. It will address some real issues in the society like
-- Lonelyness with the Kids
+- Loneliness with the Kids
 - Address social awareness
 
 ## Feature
@@ -41,7 +41,7 @@ It shows some snaps from different events and just give the user/ kid positive v
 
 
 ## Features Left to Implement
-- Adding date, time and targetted audience group on Event details page
+- Adding date, time and age on Event details page
 - Search, filter based on location or some search query on Event gallery
 
 ## Testing
