@@ -17,7 +17,14 @@ body {
     font-size: 280%;
     margin-bottom: auto;
     margin-left: 20px;
+  
 }
+#logo a{
+    text-decoration: none;
+    color: rgb(231, 231, 122);
+    cursor: pointer;
+}
+
 
 h3,
 p {
@@ -494,6 +501,10 @@ footer {
 
     }
 
+    .container{
+        width: 80%;
+    }
+
 }
 
  @media screen and (max-width: 600px) {
@@ -509,4 +520,8 @@ footer {
         text-align: center;
 
     } 
+
+    .container{
+        width: 80%;
+    }
 } 

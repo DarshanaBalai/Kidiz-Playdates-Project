@@ -39,6 +39,10 @@ It shows some snaps from different events and just give the user/ kid positive v
 
 ![](https://github.com/DarshanaBalai/Kidiz-Playdates-Project/assets/130803590/63668a76-d2b1-45d1-ba9a-0505c7f78e35)
 
+* All Pages on the website have:
+* A responsive navigation bar at the top which allows the user to navigate through the site.
+* A footer which contains social media icon links to instagram, facebook and twitter. Icons were used to keep the footer clean and because they are universally recognisable.
+
 
 ## Features Left to Implement
 - Adding date, time and age on Event details page
@@ -67,5 +71,12 @@ Testing is done to test frontend like html, css.
 - Github pages for deployment.
 
 ## Deployment
-Github page is used for the deployment and you can find more details in github page configuration, deployed URL `https://darshanabalai.github.io/Kidiz-Playdates-Project/`
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Bully-Book-Club.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
